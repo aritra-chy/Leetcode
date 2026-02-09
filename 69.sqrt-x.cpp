@@ -8,7 +8,7 @@
 class Solution {
 public:
     int mySqrt(int x) {
-        long r=x;
+        long r=x;        //apply Newton's method to find the square root of x
         while(r*r>x)
         {
             r=(r+x/r)/2;
